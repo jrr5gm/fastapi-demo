@@ -30,7 +30,9 @@ def add_me(number_1: int, number_2: int):
     return {"sum": sum}
 
 # Let's develop a new one:
-
+@app.get("/")
+def hey_there():
+	return {"Hey, there!"}
 
 ## Parameters
 # Introduce parameter data types and defaults from the Optional library
