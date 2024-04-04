@@ -40,8 +40,8 @@ def add_me(number_1: int, number_2: int):
 
 # Let's develop a new one:
 @app.get("/")
-def hey_there():
-	return {"Hey, there!"}
+def where():
+	return {"UVA!"}
 
 # Step 3 Endpoint for connecting to FastAPI
 @app.get("/albums")
